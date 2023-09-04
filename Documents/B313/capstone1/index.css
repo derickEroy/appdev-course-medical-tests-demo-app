@@ -1,0 +1,962 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans New Tai Lue', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Navbar Start */
+
+.navbar {
+	font-family: 'Noto Sans New Tai Lue', sans-serif;
+}
+
+nav ul {
+	font-size: 20px;
+}
+
+#home a{
+	color: #fdb24b;
+}
+
+#testimonial a{
+	color: #305252;
+}
+
+#contactUs a{
+	color: #305252;
+}
+
+#signIn a{
+	color: #305252;
+}
+
+#signUpButton a{
+	background-color: #fd5347;
+}
+
+/* Navbar End */
+
+/* Banner Start */
+
+#banner {	
+	background-image: url(./images/bannerbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#bannerModelParent {
+	height: 100%;
+	width: 100%;
+	left: 50%;
+}
+
+#banner div .row {
+	height: 100%;
+}
+
+#banner #h5-1 {
+	color: #fdb24b;
+	font-family:'Noto Sans New Tai Lue', sans-serif;
+}
+
+#banner #h5-2 {
+	color: #cbcbcb;
+}
+
+#joins {
+	margin-top: 150px;
+}
+
+#joinImg1{
+	left: 0px;
+	z-index: 1;
+	transform: translate(50%, -50%);
+	border: 4px solid white;
+}
+
+#joinImg2{
+	left: 50px;
+	z-index: 2;
+	transform: translate(50%, -50%);
+	border: 4px solid white;
+}
+
+#joinImg3{
+	left: 100px;
+	z-index: 3;
+	transform: translate(50%, -50%);
+	border: 4px solid white;
+}
+
+#joinImg4{
+	left: 150px;
+	z-index: 4;
+	transform: translate(50%, -50%);
+	border: 4px solid white;
+}
+
+#joinImg5{
+	left: 200px;
+	z-index: 5;
+	transform: translate(50%, -50%);
+	border: 4px solid white;
+}
+
+#joinUsButton {
+	 background-color: #fd5347;
+	 font-size: 20px;
+	 width: 100%;
+	 height: 65px;"
+}
+
+#bannerMainTexth h1 {
+	font-family: 'Noto Sans New Tai Lue', sans-serif;
+}
+/* Banner End */
+
+/* Univ Section Start */
+#univ {
+	margin-top: 75px;
+}
+
+#univImageContainer {
+	align-items: center;
+}
+
+#univ #univImg {
+	transition: transform 0.25s;
+}
+
+#univ #univImg:hover {
+	transform: scale(1.1);
+}
+
+#univ h4 {
+	color: #fdb24b;
+}
+
+#univ img {
+	max-width: 240px;
+}
+
+/* Univ Section End */
+
+/* Credentials Start */
+#cred {
+	margin-top: 150px;
+	max-width: 85%;
+}
+
+#cred .row {
+	height: 600px;
+}
+
+#credText {
+	color: #305252;
+}
+
+#credModel {
+	height: 100%;
+}
+
+
+#credModel img {
+	height: 100%;
+}
+
+#credImages1 img, #credImages2 img {
+	max-width: 60px;
+	object-fit: contain;
+}
+
+#contactUsContainer {
+	margin-top: 50px;
+}
+
+#contactUsButton {
+	background-color: #fd5347;
+}
+/* Credentials End */
+
+
+
+/* Tools Used Start */
+#tools {
+	margin-top: 125px;
+	margin-bottom: 175px;
+	max-width: 85%;
+}
+
+#tool {
+	background-color: #f4f4f4;
+	padding: 15px;
+	color: #305252;
+	border-radius: 10px;
+	border: 7px solid white ;
+	outline: 2px solid #9c9c9c;
+	max-width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	column-gap: 15px;
+	transition: transform 0.25s;
+}
+
+#tool:hover {
+	transform: scale(1.1);
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 12px 10px rgba(0, 0, 0, 0.1);
+	outline: 2px solid #fdb24b;
+}
+
+#tool img {
+	object-fit: contain;
+	width: 75px;
+}
+
+#tools row {
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+#tools #toolText {
+	text-align: center;
+	margin-bottom: 50px;
+	color: #305252;
+}
+/* Tools Used End */
+
+
+
+/* Contact Us Form Start */
+#formDiv {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-right: 40px;
+}
+
+#formDiv button {
+	background-color: #fd5347;
+	width: 100%;
+	height: 50px;
+}
+
+#formDiv{
+	color: #305252;
+}
+
+#contactUsForm {
+	font-family: 'Noto Sans New Tai Lue', sans-serif;
+	border-radius: 15px;
+	max-width: 85%;
+	margin-top: 100px;
+}
+
+#contactUsForm input, #contactUsForm textarea  {
+	background-color: #e7e7e7;
+	border: none;
+	width: 100%;
+}
+
+#contactUsForm input {
+	height: 50px;
+}
+
+#contactUsForm textarea {
+	border-radius: 25px;
+	resize: none;
+}
+
+#contactUsForm textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+#contactUsForm textarea::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+    background-color: #757575;
+}
+
+#contactUsImage img {
+	object-fit: contain;
+	width: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/* Contact Us Form End */
+
+
+
+/* Full-Stack Web Developer Start */
+#fullStackWebDev {
+	color: #305252;
+	margin-top: 200px;
+	margin-bottom: 175px;
+	max-width: 85%;
+}
+
+#nameDev {
+	margin-bottom: 15px;	
+}
+
+#textDev {
+	text-align: justify;
+}
+
+#textDev p {
+	font-size: 25px;
+}
+
+#starDev {
+	margin-bottom: 35px;
+}
+
+#starDev img {
+	width: 30px;
+	object-fit: contain;
+}
+
+#starDev h5 {
+	margin: 0 0 0 10px;
+}
+
+#imageDev img {
+	width: 80%;
+}
+/* Full-Stack Web Developer End */
+
+
+
+/* Footer Start */
+footer {
+	background-image: url(./images/footerbg.png);
+}
+
+footer .row {
+	color: white;
+	padding: 75px;
+	padding-bottom: 0;
+}
+
+#websiteFooter {
+	text-align: center;
+}
+
+#websiteFooter img {
+	margin-bottom: 35px;
+}
+
+#websiteFooterImages {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#websiteFooterImages img{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 50px;
+}
+
+#websiteFooter p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+#footerParagraph a {
+	color: white;
+	text-decoration: none;
+}
+
+#copyrightFooter {	
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+#copyrightFooter a {
+	color: white;
+	text-decoration: none;
+}
+/* Footer End */
+
+/* Project Section Start */
+#projects {
+	margin-top: 125px;
+	max-width: 85%;
+}
+
+#project {
+	background-color: white;
+	padding: 25px;
+	color: #305252;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	border-radius: 15px;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.075);
+}
+
+#project1Text {
+	margin: 25px 0;
+}
+
+#tagAndRate {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+#tag {
+	background-color: #e7e7e7;
+	padding: 5px 10px 5px 10px;
+	border-radius: 50px;
+}
+
+#rate {
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+}
+
+#rate #rateStar {
+	color: #fdb24b;
+}
+
+#rate img {
+	object-fit: contain;
+	max-width: 20px;
+	margin: 0;
+}
+
+#rate p {
+	margin: 0;
+}
+
+#project1Pic img {
+	object-fit: contain;
+	width: 100%;
+}
+
+#projects row {
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+#projects #projectText {
+	text-align: center;
+	margin-bottom: 50px;
+	color: #305252;
+}
+
+#projectStats {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 25px 0;
+}
+
+#projectStats #duration {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+#projectStats #date {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+#projectStats #difficulty {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+#projectStats img {
+	max-width: 20px;
+}
+
+#creator {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+}
+
+#picAndName {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+}
+
+#picAndName p {
+	font-size: 20px;
+	margin: 0;
+}
+
+#creator img {
+	max-width: 50px;
+	border-radius: 60px;
+}
+
+#openButton h4 {
+	margin: 0;
+	padding: 15px 30px;
+	background-color: #fd5347;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 50px;
+}
+/* Project Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS START */
+
+@media screen and (min-width: 1800px) {
+#credText p {
+  text-align: justify;
+}
+
+#credImages1, #credImages2 {
+  column-gap: 100px;
+}
+
+#contactUsContainer {
+  margin-top: 70px;
+}
+
+}
+
+
+
+/* 992px to 1800px Start */
+@media only screen and (max-width: 1800px) and (min-width: 992px)  {
+#joinImageSet img {
+  transform: none !important;
+  position: unset !important;
+  margin: 0 -10px;
+}
+
+#bannerModelParent {
+  right: 0;
+}
+
+#bannerModelParent img{
+  max-width: 100%;
+}
+
+#joins {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+#bannerMainText .text-white.display-3 {
+  font-size: 40px;
+}
+#joins .col-xl-3 {
+  flex: 100%;
+  max-width: 100%;
+}
+#joins .col-xl-3 #joinUsButton {
+  max-width: max-content;
+  padding: 10px 50px;
+  height: auto;
+}
+.position-relative {
+  position: relative !important;
+  flex: 100%;
+  max-width: 100%;
+}
+.position-relative .col-xl-4.text-white {
+  flex: 100%;
+  max-width: 100%;
+  text-align: left !important;
+}
+#credModel img {
+  width: 100%;
+  object-fit: contain;
+  padding-right: 40px;
+}
+#banner + main {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+#credImages1 .col-xl-6.d-flex .ml-xl-5, #credImages2 .col-xl-6.d-flex .ml-xl-5 {
+  margin-left: 10px !important;
+  font-size: 20px;
+}
+
+#credImages1, #credImages2 {
+  column-gap: 20%;
+}
+
+#credText p.mt-5 {
+  text-align: justify;
+}
+
+#univ {
+  margin-top: 75px;
+}
+
+}
+/* 992px to 1800px End */
+
+
+
+
+
+
+
+/* 1200px Start */
+@media screen and (max-width:1200px) {
+/* Navbar Responsiveness Start */
+.navbar {
+  align-items: center;
+  padding: 10px 30px !important;
+}
+.navbar .navbar-brand.ml-5 {
+  margin: 0 !important;
+}
+.navbar .navbar-toggler {
+  padding-right: 0;
+}
+
+/* Navbar Responsiveness End */
+
+
+
+/* Banner Responsive CSS Start */
+#banner {
+  position: relative;
+  height: auto;
+  padding-bottom: 40px;
+  padding: 40px 30px !important;
+}
+
+#bannerRow .col-xl-6.p-5 {
+  padding: 0 !important;
+}
+
+#banner #h5-1 {
+  text-align: center;
+}
+#bannerRow h1 {
+  font-size: 25px;
+  text-align: center;
+  line-height: normal;
+}
+
+#joins {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+#bannerMainText {
+  position: unset !important;
+}
+#bannerModelParent {
+  display: none;
+}
+#banner #h5-2 {
+  text-align: center;
+  margin: 20px auto 0 !important;
+  font-size: 15px;
+}
+#joinUsButton {
+  background-color: #fd5347;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-width: max-content;
+}
+#joins .col-xl-3 {
+  display: flex;
+  justify-content: center;
+}
+.position-relative .col-xl-4.text-white {
+  flex: 100%;
+  max-width: 100%;
+  text-align: center !important;
+}
+#joinUsButton {
+  background-color: #fd5347;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-width: max-content;
+  padding: 10px 60px;
+}
+.position-relative {
+  position: relative !important;
+  display: flex;
+  justify-content: center;
+}
+.position-relative img.rounded-circle {
+  transform: none !important;
+  left: auto !important;
+  position: unset !important;
+  margin: 0 -5px;
+}
+
+#banner + main {
+  margin: 0 !important;
+}
+
+
+/* Banner Responsive CSS End */
+
+
+/* Credentials Responsiveness CSS Start */
+#univ .d-flex {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+#univ .d-flex .col-xl-3 {
+  flex: 0 0 calc(50% - 15px);
+  max-width: max-content;
+}
+
+#univ {
+  margin-top: 75px;
+}
+
+#credText {
+  color: #305252;
+  padding: 0px 0px !important;
+  margin-top: 50px !important;
+}
+#credText h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+#cred {
+  margin-top: 120px;
+}
+
+#univ #univImg:hover {
+  background-color: transparent;
+}
+
+#univ h4 {
+  color: #fdb24b;
+  font-size: 30px;
+}
+#credText p.mt-5 {
+  text-align: center;
+  margin-top: 0 !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#credImages1 .d-flex h3, #credImages2 .d-flex h3 {
+  font-size: 23px;
+  margin-left: 25px;
+}
+
+#contactUsContainer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#credImages1, #credImages2 {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  column-gap: 20%;
+}
+
+#credImages1 div, #credImages2 div {
+  justify-content: center;
+}
+
+#signUpButton a {
+  background-color: #fd5347;
+  padding: 6px 30px;
+  display: block;
+  margin-top: 10px;
+  max-width: max-content;
+}
+
+#credModel img {
+  height: auto;
+  width: auto;
+  padding-right: 0px;
+  max-width: 380px;
+}
+#credModel {
+  display: none;
+  height: auto; 
+}
+/* Credentials Responsiveness End */
+
+
+/* Contact Us Start */
+#contactUsImage img {
+  display: none;
+/* Contact Us End */
+}
+
+
+
+#contactUsForm #contactUsFormText {
+  text-align: center;
+}
+
+#formDiv p {
+  text-align: center !important;
+}
+/* Contact Us End */
+
+
+/* Full-Stack Web Developer Start */
+#imageDev {
+  display: flex;
+  justify-content: center;
+}
+
+#imageDev img {
+  margin-bottom: 50px;
+}
+
+#fullStackWebDev {
+  text-align: center;
+}
+
+#starDev {
+  justify-content: ;
+}
+
+/* Full-Stack Web Developer End */
+
+}
+/* 1200px End */
+
+
+
+
+/* 768px Start */
+@media screen and (max-width:768px) {
+#univ img {
+  max-width: 100%;
+}
+
+#univ {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#univImageContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#credModel {
+  height: auto;
+}
+#credModel img {
+  height: auto;
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+#cred {
+  margin-top: 100px;
+}
+
+#credText p.mt-5 {
+  margin-top: 0 !important;
+  text-align: center;
+}
+
+#credImages1 .d-flex, #credImages2 .d-flex {
+  margin: 0 auto;
+}
+
+#contactUsContainer #contactUsButton {
+  padding: 10px 20px !important;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#univ > .col-12 {
+  padding: 0;
+}
+
+#starDev {
+  justify-content: center;
+}
+
+}
+/* 768px End */
+
+/* 575px Start */
+@media screen and (max-width:575px) {
+
+#univ h4 {
+  font-size: 25px;
+}
+
+#credText h1 {
+  font-size: 30px;
+}
+
+#univImageContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#credImages1, #credImages2 {
+  position: relative;
+  column-gap: 40%;
+}
+
+
+#credImages1 img, #credImages2 img {
+  max-width: 40%;
+  object-fit: contain;
+}
+
+
+}
+/* 575px End */
